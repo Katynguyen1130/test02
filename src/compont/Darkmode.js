@@ -1,8 +1,9 @@
 import React from "react";
-import { ThemeToggler } from "gatsby-plugin-dark-mode";
+import ThemeToggler from "./togglethem/Themtoggle";
 
 function Darkmode() {
   return (
+    
     <div>
       <ThemeToggler>
         {({ theme, toggleTheme }) => (
