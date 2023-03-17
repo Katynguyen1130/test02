@@ -8,3 +8,20 @@ body.dark {
   --hr: hsla(0, 0%, 100%, 0.2);
   background-color: black;
 }
+
+.item {
+  width: 200px;
+  height: 400px;
+  background-color: aqua;
+}
+.iner-carousel {
+  display: flex;
+  flex-wrap: none;
+  gap: 20px;
+  margin: auto;
+  background-color: blanchedalmond;
+}
+
+.carousel {
+  overflow: hidden;
+}
